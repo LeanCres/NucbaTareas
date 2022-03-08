@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     height: 100%;
     background: #f1f1f1;
@@ -84,6 +88,7 @@ button:hover{
     border: 2px solid #00000000
 }
 .select__class{
+    font-size: 24px;
     text-align: center;
     padding-top: 20vh;
 }
@@ -91,11 +96,12 @@ button:hover{
     text-align: center;
     padding-top: 20vh;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 24px;
 }
 .presentacion h2{
     justify-content: center;
     text-align: center;
+    font-size: 24px;
     padding-top: 8vh;
 }
 .presentacion p{
@@ -135,7 +141,7 @@ button:hover{
 }
 
 .card__container .title{
-    font-size: 24px;
+    font-size: 20px;
     color: #4abfcc;
     font-weight: bolder;
     padding: 10px;
@@ -335,9 +341,7 @@ footer{
     text-align: center;
     padding-bottom: 40px;
 }
-@media (max-width: 1400px){
 
-    
     .nav{
       
         height: 60px;
@@ -399,11 +403,12 @@ footer{
     .nav__label,    .nav__input{
         display: none;
     }
-}
+
 @media (max-width: 700px){
     .main-image{
         position: relative;
         background:  no-repeat center;
+        background-size: cover;
         background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(./assets/MY21-Wrangler-Overview-Gallery-01-Expanded-Desktop.webp);
         height: 100vh;
         overflow: hidden;
