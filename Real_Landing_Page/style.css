@@ -35,8 +35,7 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     
-    padding-left: 5vw;
-    padding-right: 5vw;
+    
 
 }
 .container h1{
@@ -406,7 +405,7 @@ footer{
     .main-image{
         position: relative;
         background:  no-repeat center;
-        background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(./assets/fondo-jeep2.webp);
+        background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(./assets/MY21-Wrangler-Overview-Gallery-01-Expanded-Desktop.webp);
         background-size: cover;
         height: 650px;
         overflow: hidden;
