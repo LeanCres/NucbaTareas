@@ -408,11 +408,12 @@ footer{
     .main-image{
         position: relative;
         background:  no-repeat center;
-        background-size: cover;
         background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(./assets/MY21-Wrangler-Overview-Gallery-01-Expanded-Desktop.webp);
+        background-size: cover;
         height: 100vh;
         overflow: hidden;
     }
+    
     button{
         border: 2px solid rgba(17, 17, 17, 0.359) ;
         background: rgba(17, 17, 17, 0.359);
