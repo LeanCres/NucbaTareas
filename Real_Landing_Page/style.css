@@ -1,0 +1,474 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100%;
+    background: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+
+}
+.main-image{
+    position: relative;
+    background:  no-repeat center;
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(./assets/jeep-renegade-change-the-way.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.container h1{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 150px;
+}
+
+.container p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.main{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius:50px;
+    font-weight: bold;
+    border: 2px solid #ddb271;
+    background: transparent;
+    color: #f0f0f0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #ddb271;
+    height: 100%;
+    align-items: center;
+    padding-top: 10px;
+    width: 0px;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: 2px solid #00000000
+}
+.select__class{
+    text-align: center;
+    padding-top: 20vh;
+}
+.contactanos__tittle{
+    text-align: center;
+    padding-top: 20vh;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.presentacion h2{
+    justify-content: center;
+    text-align: center;
+    padding-top: 8vh;
+}
+.presentacion p{
+    text-align: center;
+    margin-left: 10px;
+}
+.presentacion h3{
+    padding-top:10vh;
+    display: flex;
+}
+
+.card__container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.card__container .box{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: #fff;
+    margin: 10px;
+    position: relative;
+    box-shadow: 0px 5px 3px background;
+    transition: .3s all ease-in-out;
+}
+
+.card__container .boxContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+}
+
+.card__container .title{
+    font-size: 24px;
+    color: #4abfcc;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.card__container .desc{
+    color: #4abfcc;
+}
+
+.card__container a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.card__container .box:hover{
+    background: linear-gradient(130deg,#503bff 0%, #8293ff 100%);
+    box-shadow: none;
+}
+.card__container .box:hover .title, .card__container .box:hover .desc{
+    color:white ;
+    transition: .3s all ease-in-out;
+}
+
+
+
+
+
+/*Contactanos*/
+
+
+.contact__wrap {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact__in {
+	padding: 40px 30px;
+}
+
+.contact__in:nth-child(1) {
+	flex: 35%;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.15)), url(./assets/bmwjpg.jpg);
+	color: #fff;
+    background-position: center;
+}
+
+.contact__in:nth-child(2) {
+	flex: 30%;
+	background: #ddb271;
+}
+
+.contact__in:nth-child(3) {
+	flex: 35%;
+	padding: 0;
+}
+
+.contact__in h1 {
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.contact__in h2 {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.contact__in h2 i {
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: #f5f5f5;
+	color: #000;
+	border-radius: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.contact__in p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.contact__in ul {
+	padding: 0;
+	margin: 0;
+}
+
+.contact__in ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.contact__in ul li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background: #fff;
+	border-radius: 50px;
+    transition: all 300ms ease;
+}
+
+.contact__in ul li a:hover {
+    background: #ddb27c;
+}
+
+.contact__in ul li a i {
+	font-size: 14px;
+	line-height: 30px;
+	color: #000;
+}
+
+.contact__in form {
+	width: 100%;
+	height: auto;
+}
+
+.contact__in input {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	outline: none;
+	padding-left: 5px;
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contact__in input::placeholder {
+	color: #fff;
+}
+
+.contact__in textarea {
+	width: 100%;
+	height: 140px;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	outline: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+.contact__in textarea::placeholder {
+	color: #fff;
+}
+
+.contact__in btn {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #fff;
+	outline: none;
+	background: transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+}
+
+.contact__in iframe {
+	width: 100%;
+	height: 100%;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f1f1f1;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #111;
+    text-align: center;
+    padding-bottom: 40px;
+}
+@media (max-width: 1400px){
+
+    
+    .nav{
+      
+        height: 60px;
+        color: rgb(255, 255, 255);
+    }
+
+    .nav__container{
+        display: flex;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav__logo{
+        width: 150px;
+
+    }
+
+    .nav__menu{
+        display: grid;
+        grid-auto-flow:column;
+        gap: 3em;
+    
+    }
+
+    .nav__item{
+        width: 90px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 7px;
+        
+        color: #fff;
+        text-decoration: none;
+        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+        
+    }
+
+    .nav__item::after{
+        content: "";
+        display: block;
+        background: #ddb271;
+        width: 90%;
+        margin-top: 3px;
+        height: 3px;
+        clip-path: var(--clippy);
+        transition: clip-path .5s;
+    }
+
+    .nav__item:hover{
+        --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+
+    .nav__label,    .nav__input{
+        display: none;
+    }
+}
+@media (max-width: 700px){
+    .main-image{
+        position: relative;
+        background:  no-repeat center;
+        background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(./assets/MY21-Wrangler-Overview-Gallery-01-Expanded-Desktop.webp);
+        height: 100vh;
+        overflow: hidden;
+    }
+    button{
+        border: 2px solid rgba(17, 17, 17, 0.359) ;
+        background: rgba(17, 17, 17, 0.359);
+        color: #f0f0f0;
+        
+    }
+    span{
+        background: #f1f1f1;
+    }
+    .nav__label{
+        display: block;
+        cursor: pointer;
+    }
+    
+    .nav__menu{
+        position: absolute;
+        top: 3.75em;
+        bottom: 0;
+        background-color: #2a3a51;
+        
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: circle(0 at center);
+        transition: clip-path 1s ease-in-out;
+        z-index: 1;
+    }
+    .nav__item{
+    
+        width: 300px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 7px;
+        
+        color: #fff;
+        text-decoration: none;
+        --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+        
+    }
+    .nav__input:checked + .nav__menu{
+        clip-path: circle(100% at center);
+    }
+    .contact__in:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contact__in:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contact__in:nth-child(3) {
+		flex: 100%;
+	}
+
+}
+
+
+
