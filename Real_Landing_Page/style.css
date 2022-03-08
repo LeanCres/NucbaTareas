@@ -25,7 +25,7 @@ body{
     height: 100vh;
     overflow: hidden;
 }
-.container {
+.banner {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,16 +34,16 @@ body{
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    width: 90%
+    width: 90%;
 }
-.container h1{
+.banner h1{
     text-align: center;
     font-size: 6vw;
     font-weight: bold;
     line-height: 150px;
 }
 
-.container p{
+.banner p{
     font-size: 13px;
     font-weight: 600;
 }
@@ -102,6 +102,7 @@ button:hover{
 .presentacion p{
     text-align: center;
     margin-left: 10px;
+    margin-right: 10px;
 }
 .presentacion h3{
     padding-top:10vh;
@@ -199,12 +200,13 @@ button:hover{
 	padding: 0;
 }
 
-.contact__in h1 {
-	font-size: 24px;
+.contact__in h3 {
+	font-size: 20px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .contact__in h2 {
@@ -458,8 +460,7 @@ footer{
         clip-path: circle(100% at center);
     }
 
-    .container h1{
-        text-align: center;
+    .banner h1{
         font-size: 50px;
         font-weight: bold;
         line-height: 150px;
