@@ -408,7 +408,7 @@ footer{
         background:  no-repeat center;
         background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url(./assets/fondo-jeep2.webp);
         background-size: cover;
-        height: 100vh;
+        height: 650px;
         overflow: hidden;
     }
     
