@@ -34,11 +34,11 @@ body{
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-
+    width: 90%
 }
 .container h1{
     text-align: center;
-    font-size: 70px;
+    font-size: 6vw;
     font-weight: bold;
     line-height: 150px;
 }
@@ -456,6 +456,13 @@ footer{
     }
     .nav__input:checked + .nav__menu{
         clip-path: circle(100% at center);
+    }
+
+    .container h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 150px;
     }
     .contact__in:nth-child(1) {
 		flex: 50%;
